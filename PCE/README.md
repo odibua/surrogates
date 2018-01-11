@@ -4,7 +4,7 @@ This folder contains files used for constructing generalized polynomial chaos ex
 using integrals based on smolyak's cubature as illustrated in Section 2.3.4 which converges faster than Monte Carlo.
 
 [1] T. Crestaux, O. Maitre, J-M Martinez, "Polynomial Chaoes expansion for sensitivity analysis," 
-    Reliability Engineering and System Safety, 2008
+    Reliability Engineering and System Safety, 2008 https://www.sciencedirect.com/science/article/pii/S0951832008002561
     
 # Running Tests 
 
