@@ -3,7 +3,11 @@
 """
 Created on Fri Jan  5 09:02:43 2018
 
-@author: odibua
+@author: Ohi Dibua
+File that contains function that generates legendre polynomials. It takes 
+as in input:
+    n: Maximum power of legendre polynomial
+    x: Input x
 """
 import math
 import numpy as np
