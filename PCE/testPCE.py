@@ -26,7 +26,7 @@ elif (n<1):
 elif (level<1):
     sys.exit('Not a valid level of accuracy. Must be >=1')
 elif (p<(level-1)):
-    ('Not a valid maximum polynomial power. Select p to be <= level')
+    sys.exit('Not a valid maximum polynomial power. Select p to be <= level')
 #chooseTestFunc = testFuncArr[3];
 #p = 3; #Maximum Polynomial Degree
 #n = 5;
@@ -41,7 +41,7 @@ elif (chooseTestFunc == 'nDCubic'):
 
 #Perform PCE expanion and obtain coefficients, nodes and weights of integral, and list
 #of polynomial powers. Does assumption based on legendre polynomials.   
-beta,polynomial,nodes,weights,powList = genPCEIntegral(p,d,level,customLegendre,funcUse);
+beta,polynomial,nodes,weights,powList,integralArr = genPCEIntegral(p,d,level,customLegendre,funcUse);
 
 #Uses expansion coefficeints to make approximation to real functions in domain
 #and checks for the errors.
